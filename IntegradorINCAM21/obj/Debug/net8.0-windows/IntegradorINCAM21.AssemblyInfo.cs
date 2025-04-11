@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IntegradorINCAM21")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0659ea80db450fcac1396c987fa28821feb0c61")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1b240139759bb66e2da71a92bdacee78c4cac4b")]
 [assembly: System.Reflection.AssemblyProductAttribute("IntegradorINCAM21")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IntegradorINCAM21")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

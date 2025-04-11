@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\Abraham\\Documents\\GitHub\\IntegradorINCAM21\\IntegradorINCAM21\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EA182857-BA7F-412D-96EF-E35EB27CD3BA}|IntegradorINCAM21.csproj|d:\\abraham\\documents\\github\\integradorincam21\\integradorincam21\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA182857-BA7F-412D-96EF-E35EB27CD3BA}|IntegradorINCAM21.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA182857-BA7F-412D-96EF-E35EB27CD3BA}|IntegradorINCAM21.csproj|d:\\abraham\\documents\\github\\integradorincam21\\integradorincam21\\guardardatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA182857-BA7F-412D-96EF-E35EB27CD3BA}|IntegradorINCAM21.csproj|solutionrelative:guardardatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EA182857-BA7F-412D-96EF-E35EB27CD3BA}|IntegradorINCAM21.csproj|d:\\abraham\\documents\\github\\integradorincam21\\integradorincam21\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{EA182857-BA7F-412D-96EF-E35EB27CD3BA}|IntegradorINCAM21.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
@@ -14,23 +22,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Abraham\\Documents\\GitHub\\IntegradorINCAM21\\IntegradorINCAM21\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "D:\\Abraham\\Documents\\GitHub\\IntegradorINCAM21\\IntegradorINCAM21\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
+              "ToolTip": "D:\\Abraham\\Documents\\GitHub\\IntegradorINCAM21\\IntegradorINCAM21\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T19:50:11.085Z",
-              "EditorCaption": " [Design]"
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\Abraham\\Documents\\GitHub\\IntegradorINCAM21\\IntegradorINCAM21\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "D:\\Abraham\\Documents\\GitHub\\IntegradorINCAM21\\IntegradorINCAM21\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAASwDwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T16:21:41.702Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GuardarDatos.cs",
+              "DocumentMoniker": "D:\\Abraham\\Documents\\GitHub\\IntegradorINCAM21\\IntegradorINCAM21\\GuardarDatos.cs",
+              "RelativeDocumentMoniker": "GuardarDatos.cs",
+              "ToolTip": "D:\\Abraham\\Documents\\GitHub\\IntegradorINCAM21\\IntegradorINCAM21\\GuardarDatos.cs",
+              "RelativeToolTip": "GuardarDatos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T16:27:09.543Z",
+              "EditorCaption": ""
             }
           ]
         }

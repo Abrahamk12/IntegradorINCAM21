@@ -2,39 +2,64 @@ namespace IntegradorINCAM21
 {
     public partial class Form1 : Form
     {
+        private string datos = "";
+        GuardarDatos gd = new GuardarDatos();
         public Form1()
         {
             InitializeComponent();
-            string dbPath = "TuBaseDeDatos.sqlite"; // Ruta de tu base de datos
-
-            // Verificar si el archivo de la base de datos ya existe
-            if (!File.Exists(dbPath))
-            {
-                // Si no existe, crear la base de datos
-                SQLiteConnection.CreateFile(dbPath);
-                Console.WriteLine("¡Base de datos creada!");
-
-                // Crear una tabla inicial en la base de datos
-                using (SQLiteConnection connection = new SQLiteConnection($"Data Source={dbPath};Version=3;"))
-                {
-                    connection.Open();
-                    string createTableQuery = "CREATE TABLE IF NOT EXISTS Usuarios (Id INTEGER PRIMARY KEY, Nombre TEXT)";
-                    using (SQLiteCommand command = new SQLiteCommand(createTableQuery, connection))
-                    {
-                        command.ExecuteNonQuery();
-                        Console.WriteLine("¡Tabla creada!");
-                    }
-                }
-            }
-            else
-            {
-                Console.WriteLine("La base de datos ya existe.");
-            }
+            gd.crearBD();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void bGuardar_Click(object sender, EventArgs e)
+        {
+            gd.guardarDatos(tLargo.Text, tAncho.Text, tGrosor.Text, tDiametro.Text, cTipoTornillo.SelectedItem.ToString(), cOpciones.SelectedItem.ToString());
+        }
+
+        private void cOpciones_SelectedIndexChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void tLargo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tAncho_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tGrosor_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tDiametro_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cTipoTornillo_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tVerDatos_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bVerDatos_Click(object sender, EventArgs e)
+        {
+            this.datos = gd.mostrarDatos();
+            tVerDatos.Text = this.datos.ToString();
+            MessageBox.Show($"La ubicacion de la base de datos se encuntra en {gd.dbPath}","Ubicacion BD", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
